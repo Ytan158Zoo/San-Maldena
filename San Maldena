@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Maldena</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .logo img {
+            height: 100px;
+            margin: 0 15px;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section img {
+            border: 2px solid #ddd;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>San Maldena</h1>
+        <div class="logo">
+            <img src="rhinoceros-logo.png" alt="Nosorožec Logo">
+            <img src="elephant-logo.png" alt="Slon Logo">
+            <img src="hippopotamus-logo.png" alt="Hroch Logo">
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="section" id="rhinoceros">
+            <h2>Nosorožec</h2>
+            <img src="rhinoceros.jpg" alt="Nosorožec">
+            <p>Nosorožce sú veľké, robustné cicavce známe pre svoje impozantné rohy. Existujú dve hlavné druhy nosorožcov v Afrike: čierny a biely. Čierny nosorožec (Diceros bicornis) je menší a má viac zakrivené rohy, zatiaľ čo biely nosorožec (Ceratotherium simum) je väčší a jeho roh je priamočiarejší. Nosorožce majú silný zápach, ktorý používajú na označenie svojho územia. Tieto zvieratá sú prevažne herbivorové, konzumujú trávu, listy a vetvičky.</p>
+            <p>Nosorožce sú známe svojou hrubou kožou, ktorá ich chráni pred predátormi a nepriaznivým počasím. Ich rohy sú z rohoviny, ktorá je rovnaký materiál ako naše nechty, ale je veľmi pevná. Nosorožce sú prevažne samotárske zvieratá, hoci mladšie jedince môžu byť spoločenské.</p>
+            <h3>Zaujímavosti</h3>
+            <ul>
+                <li>Nosorožce sú veľmi teritoriálne a používajú svoje rohy na obranu proti konkurentom.</li>
+                <li>Čierne nosorožce sú aktívnejšie počas večera a noci, zatiaľ čo biele nosorožce sú prevažne dennými zvieratami.</li>
+                <li>Kvôli nelegálnemu lovu a znišťovaniu ich habitatu sú niektoré druhy nosorožcov kriticky ohrozené.</li>
+            </ul>
+            <h3>Nosorožec v Planet Zoo</h3>
+            <p>V hre Planet Zoo sú nosorožce veľmi detailne vykreslené, s rôznymi druhmi dostupnými na výber. Rovnako ako v reálnom svete, aj tu môžu nosorožce vyžadovať veľký priestor na prechádzanie a špeciálnu stravu. Hráči môžu prispôsobiť ich habitát s rôznymi druhmi rastlín a pôd, aby simulovali ich prirodzené prostredie.</p>
+        </div>
+
+        <div class="section" id="hippopotamus">
+            <h2>Hroch</h2>
+            <img src="hippopotamus.jpg" alt="Hroch">
+            <p>Hrochy (Hippopotamus amphibius) sú veľké, polomorské zvieratá, ktoré trávia väčšinu času vo vode. Majú masívne telo s krátkymi nohami a veľkou hlavou. Ich koža je veľmi hrubá a obsahuje špeciálne oleje, ktoré ich chránia pred slnkom a vodou. Hrochy majú veľmi silné čeľuste a sú schopné vyvinúť veľkú silu pri hryzení.</p>
+            <p>Hrochy sú väčšinou herbivorové, ale sú známe svojou agresivitou a teritorialitou, najmä keď sú ohrozené. Trávia veľa času vo vode, kde sa ochladzujú a chránia pred slnkom. Na pevnine sa zdržujú hlavne počas noci, keď sa pasú.</p>
+            <h3>Zaujímavosti</h3>
+            <ul>
+                <li>Hrochy sú jednými z najnebezpečnejších zvierat v Afrike a zodpovedajú za veľké množstvo úmrtí ľudí každý rok.</li>
+                <li>Ich koža obsahuje prirodzené antibiotiká, ktoré ich chránia pred infekciami.</li>
+                <li>Hrochy majú veľmi dobrý sluch a čuch, ale ich zrak je relatívne slabý.</li>
+            </ul>
+            <h3>Hroch v Planet Zoo</h3>
+            <p>Hrochy v Planet Zoo sa nachádzajú v špeciálnych vodných biotopoch, ktoré sú navrhnuté tak, aby napodobnili ich prirodzené prostredie. Hráči môžu nastaviť rôzne úpravy, ako sú jazierka a mokrade, aby sa hrochy cítili ako doma. Okrem toho môžu prispôsobiť ich krmivo a správanie, aby zabezpečili, že budú spokojné a šťastné.</p>
+        </div>
+
+        <div class="section" id="elephant">
+            <h2>Slon</h2>
+            <img src="elephant.jpg" alt="Slon">
+            <p>Slony sú najväčšími suchozemskými zvieratami na svete a sú známi pre svoje dlhé kly a veľké uši. Existujú dva hlavné druhy slonov v Afrike: africký slon (Loxodonta africana) a africký lesný slon (Loxodonta cyclotis). Africký slon je väčší a jeho kly sú typicky zakrivené, zatiaľ čo lesný slon je menší a má rovnejšie kly.</p>
+            <p>Slony sú veľmi inteligentné a sociálne zvieratá, ktoré žijú v skupinách nazývaných stáda. Tieto stáda sú vedené samicami a pozostávajú z príbuzných, ktoré si navzájom pomáhajú pri starostlivosti o mladé a pri ochrane pred predátormi. Slony sú herbivorové a konzumujú široké spektrum rastlinnej potravy, vrátane trávy, listov a ovocia.</p>
+            <h3>Zaujímavosti</h3>
+            <ul>
+                <li>Slony majú vynikajúci sluch a môžu počuť nízkofrekvenčné zvuky, ktoré sú pre ľudí nepočuteľné.</li>
+                <li>Ich dlhý chobot používajú na rôzne účely, vrátane manipulácie s predmetmi, pitia vody a dýchania.</li>
+                <li>Slony majú veľmi dobrú pamäť a môžu si pamätať miesta a jednotlivcov po mnoho rokov.</li>
+            </ul>
+            <h3>Slon v Planet Zoo</h3>
+            <p>V Planet Zoo sú slony
